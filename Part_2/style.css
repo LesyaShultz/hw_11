@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Georgia Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia Italic"), url("georgiai.woff") format("woff");
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Scheherazade+New&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 150px 70px 50px 70px;
+  background-color: #464f54;
+}
+
+.list {
+  background-color: white;
+  padding: 110px 50px;
+}
+
+.text0 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #b4b4b4;
+  font-family: "Georgia Italic";
+}
+
+h1 {
+  font-size: 70px;
+  letter-spacing: 4px;
+  line-height: 74px;
+  color: #2a2a2a;
+  padding-left: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.text1 {
+  margin-top: 30px;
+  font-size: 27px;
+  line-height: 40px;
+  color: #000000;
+}
+.text2 {
+  font-size: 27px;
+  line-height: 40px;
+  color: #000000;
+}
+
+p {
+  padding: 10px 30px;
+}
+
+.data {
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #b4b4b4;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 30px;
+}
